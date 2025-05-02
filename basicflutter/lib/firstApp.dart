@@ -1,4 +1,3 @@
-import 'package:basicflutter/main.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -6,7 +5,7 @@ void main() {
 }
 
 class FirstApp extends StatelessWidget {
-  FirstApp({super.key});
+  const FirstApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

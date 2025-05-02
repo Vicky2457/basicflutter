@@ -5,7 +5,7 @@ void main() {
 }
 
 class RowApp extends StatelessWidget {
-  RowApp({super.key});
+  const RowApp({super.key});
 
   @override
   Widget build(BuildContext context) {
